@@ -41,3 +41,23 @@ npm run preview
 - Trình duyệt sẽ hỏi quyền, bạn phải chấp nhận.
 - Một số trình duyệt/chế độ tiết kiệm pin có thể giới hạn thông báo nền.
 - Nếu muốn hoạt động nền bền vững, cân nhắc Service Worker + Push (nâng cao).
+
+## 🚀 Tính năng
+- Nhắc nhở uống nước theo khung giờ tùy chỉnh
+- Tự động bỏ qua giờ ăn
+- Theo dõi lượng nước đã uống trong ngày
+- Hỗ trợ thông báo (Web Notifications)
+- Triển khai dễ dàng trên GitHub Pages hoặc Vercel
+
+## 🖼️ Demo
+![Screenshot](docs/screenshot.png)
+
+👉 Trải nghiệm ngay: [Demo trên Vercel](https://your-vercel-link)
+
+## ⚙️ Cài đặt
+```bash
+git clone https://github.com/Hung280997/water-reminder.git
+cd water-reminder
+npm install
+npm run dev
+
