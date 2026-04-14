@@ -1,0 +1,58 @@
+technique_id,technique_description,tactic_description,matched_malicious_indicators_count,matched_suspicious_indicators_count,matched_informative_indicators_count
+T1059.001,PowerShell,Execution,0,1,3
+T1106,"Native API",Execution,0,0,6
+T1559,"Inter-Process Communication",Execution,0,0,1
+T1129,"Shared Modules",Execution,0,0,6
+T1059,"Command and Scripting Interpreter",Execution,0,1,0
+T1543.003,"Windows Service",Persistence,0,0,3
+T1112,"Modify Registry",Persistence,0,0,1
+T1547,"Boot or Logon Autostart Execution",Persistence,0,1,0
+T1546.015,"Component Object Model Hijacking",Persistence,0,0,1
+T1543.003,"Windows Service","Privilege Escalation",0,0,3
+T1055.003,"Thread Execution Hijacking","Privilege Escalation",0,0,1
+T1055.002,"Portable Executable Injection","Privilege Escalation",0,0,1
+T1055.011,"Extra Window Memory Injection","Privilege Escalation",0,1,0
+T1055,"Process Injection","Privilege Escalation",1,0,0
+T1547,"Boot or Logon Autostart Execution","Privilege Escalation",0,1,0
+T1134,"Access Token Manipulation","Privilege Escalation",0,0,1
+T1546.015,"Component Object Model Hijacking","Privilege Escalation",0,0,1
+T1620,"Reflective Code Loading","Defense Evasion",0,0,2
+T1027,"Obfuscated Files or Information","Defense Evasion",0,1,6
+T1562.001,"Disable or Modify Tools","Defense Evasion",0,1,3
+T1055.003,"Thread Execution Hijacking","Defense Evasion",0,0,1
+T1112,"Modify Registry","Defense Evasion",0,0,1
+T1497.001,"System Checks","Defense Evasion",0,0,1
+T1564,"Hide Artifacts","Defense Evasion",0,0,1
+T1055.002,"Portable Executable Injection","Defense Evasion",0,0,1
+T1055.011,"Extra Window Memory Injection","Defense Evasion",0,1,0
+T1055,"Process Injection","Defense Evasion",1,0,0
+T1134,"Access Token Manipulation","Defense Evasion",0,0,1
+T1070.004,"File Deletion","Defense Evasion",0,1,0
+T1497,"Virtualization/Sandbox Evasion","Defense Evasion",0,1,1
+T1070.006,Timestomp,"Defense Evasion",0,1,0
+T1480,"Execution Guardrails","Defense Evasion",0,0,2
+T1027.002,"Software Packing","Defense Evasion",0,1,1
+T1140,"Deobfuscate/Decode Files or Information","Defense Evasion",0,0,1
+T1027.005,"Indicator Removal from Tools","Defense Evasion",0,0,1
+T1003,"OS Credential Dumping","Credential Access",0,0,1
+T1558,"Steal or Forge Kerberos Tickets","Credential Access",0,0,1
+T1012,"Query Registry",Discovery,0,1,5
+T1082,"System Information Discovery",Discovery,0,1,13
+T1083,"File and Directory Discovery",Discovery,0,0,6
+T1057,"Process Discovery",Discovery,0,2,5
+T1497.001,"System Checks",Discovery,0,0,1
+T1033,"System Owner/User Discovery",Discovery,0,0,3
+T1614,"System Location Discovery",Discovery,0,0,1
+T1087,"Account Discovery",Discovery,0,1,0
+T1497,"Virtualization/Sandbox Evasion",Discovery,0,1,1
+T1007,"System Service Discovery",Discovery,0,0,1
+T1570,"Lateral Tool Transfer","Lateral Movement",0,0,1
+T1005,"Data from Local System",Collection,0,0,1
+T1071,"Application Layer Protocol","Command and Control",0,0,4
+T1090,Proxy,"Command and Control",0,0,1
+T1071.001,"Web Protocols","Command and Control",0,1,0
+T1573.002,"Asymmetric Cryptography","Command and Control",0,1,0
+T1105,"Ingress Tool Transfer","Command and Control",0,2,1
+T1571,"Non-Standard Port","Command and Control",0,1,0
+T1489,"Service Stop",Impact,0,1,1
+T1486,"Data Encrypted for Impact",Impact,0,1,0
